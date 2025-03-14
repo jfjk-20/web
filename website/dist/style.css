@@ -1,0 +1,42 @@
+body {
+  font-family: verdana-pro, sans-serif; 
+  font-style: normal; 
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background: url('image1.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.6;
+  z-index; 1;
+}
+
+.container {
+  max-width: 5000px;
+  margin: 0 auto;
+}
+
+.container > h1 {
+  font-size: 8rem;
+  text-align: center;
+}
+
+.subcontainer {
+  position: relative;
+  z-index: 100;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 30px;
+  border: 4mm ridge;
+  padding: 3rem;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1.5rem;
+}
